@@ -1,0 +1,702 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-08-25 10:16+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: models.py:18 models.py:193 templates/dashboard/index.html:22
+#: templates/events/detail-all.html:42 views.py:196
+msgid "Open"
+msgstr "开放"
+
+#: models.py:19
+msgid "Closed"
+msgstr "关闭"
+
+#: models.py:20 templates/dashboard/index.html:25
+msgid "Blocked"
+msgstr "阻断事件"
+
+#: templates/artifacts/incidents_index.html:3
+#, python-format
+msgid "List of incidents including %(artifact_display)s %(artifact_value)s"
+msgstr ""
+
+#: templates/artifacts/incidents_index.html:13
+#: templates/events/detail-all.html:205 templates/events/table.html:6
+#: templates/incidents/followup.html:59
+#: templates/incidents/plugins/correlation_list.html:10
+#: templates/stats/attributes.html:136 templates/stats/major.html:77
+#: templates/stats/quarterly.html:208 templates/stats/quarterly.html:249
+#: templates/stats/sandbox.html:405
+msgid "Date"
+msgstr "日期"
+
+#: templates/artifacts/incidents_index.html:14 templates/events/new.html:66
+#: templates/events/table.html:8
+#: templates/incidents/plugins/correlation_list.html:11
+#: templates/stats/attributes.html:138 templates/stats/major.html:78
+#: templates/stats/quarterly.html:210 templates/stats/quarterly.html:251
+#: templates/stats/sandbox.html:407
+msgid "Subject"
+msgstr "标题"
+
+#: templates/artifacts/incidents_index.html:15
+#: templates/events/detail-all.html:77 templates/events/new.html:78
+#: templates/events/table.html:7 templates/incidents/followup.html:35
+#: templates/incidents/plugins/correlation_list.html:12
+#: templates/stats/attributes.html:137 templates/stats/major.html:79
+#: templates/stats/quarterly.html:211 templates/stats/quarterly.html:252
+#: templates/stats/sandbox.html:408
+msgid "Category"
+msgstr "攻击类别"
+
+#: templates/artifacts/incidents_index.html:16 templates/events/new.html:71
+#: templates/events/table.html:24
+#: templates/incidents/plugins/correlation_list.html:13
+msgid "Business Lines"
+msgstr "业务"
+
+#: templates/artifacts/incidents_index.html:17
+#: templates/events/detail-all.html:78 templates/events/new.html:83
+#: templates/events/table.html:10 templates/incidents/followup.html:36
+#: templates/incidents/plugins/correlation_list.html:14
+#: templates/stats/major.html:83 templates/stats/quarterly.html:215
+#: templates/stats/quarterly.html:256 templates/stats/sandbox.html:412
+msgid "Status"
+msgstr "状态"
+
+#: templates/artifacts/incidents_index.html:18
+#: templates/events/detail-all.html:87 templates/events/new.html:88
+#: templates/events/table.html:11 templates/incidents/followup.html:38
+#: templates/incidents/plugins/correlation_list.html:15
+#: templates/stats/attributes.html:338 templates/stats/major.html:84
+#: templates/stats/sandbox.html:249
+msgid "Detection"
+msgstr "发现者"
+
+#: templates/artifacts/incidents_index.html:19 templates/events/new.html:117
+#: templates/incidents/plugins/correlation_list.html:16
+msgid "Actor"
+msgstr "负责人"
+
+#: templates/artifacts/incidents_index.html:20
+#: templates/events/detail-all.html:74 templates/events/new.html:122
+#: templates/events/table.html:14 templates/incidents/followup.html:32
+#: templates/incidents/plugins/correlation_list.html:17
+#: templates/stats/major.html:88 templates/stats/quarterly.html:220
+#: templates/stats/quarterly.html:261 templates/stats/sandbox.html:417
+msgid "Plan"
+msgstr "计划"
+
+#: templates/artifacts/incidents_index.html:21
+#: templates/events/detail-all.html:37 templates/events/table.html:35
+#: templates/incidents/plugins/correlation_list.html:18
+msgid "Edit"
+msgstr "编辑"
+
+#: templates/artifacts/incidents_index.html:44
+#: templates/incidents/plugins/correlation_list.html:38
+msgid "No incidents found. Lucky you!"
+msgstr "没有安全事件"
+
+#: templates/artifacts/incidents_index.html:46
+msgid "Back"
+msgstr ""
+
+#: templates/base.html:55 templates/events/new.html:44
+msgid "New event"
+msgstr "新事件"
+
+#: templates/base.html:70
+msgid "Default"
+msgstr ""
+
+#: templates/base.html:75
+msgid "Dashboard"
+msgstr "仪表板"
+
+#: templates/base.html:76 templates/incidents/plugins/correlation_list.html:4
+#: templates/stats/attributes.html:397
+msgid "Incidents"
+msgstr "安全事件"
+
+#: templates/base.html:77
+msgid "Events"
+msgstr "普通事件"
+
+#: templates/base.html:80
+msgid "Stats"
+msgstr "统计"
+
+#: templates/base.html:82
+msgid "Yearly"
+msgstr "年度报表"
+
+#: templates/base.html:83
+msgid "Quarterly"
+msgstr "季度报表"
+
+#: templates/base.html:84
+msgid "Compare with previous year"
+msgstr "年度对比"
+
+#: templates/base.html:85
+msgid "Major incidents"
+msgstr "重大安全事故"
+
+#: templates/base.html:86
+msgid "Sandbox"
+msgstr "沙箱"
+
+#: templates/base.html:87 templates/events/detail-all.html:111
+#: templates/stats/attributes.html:427
+msgid "Attributes"
+msgstr "属性"
+
+#: templates/base.html:92
+msgid "search..."
+msgstr ""
+
+#: templates/base.html:99
+msgid "Currently logged in as"
+msgstr "当前用户"
+
+#: templates/base.html:100
+msgid "logout"
+msgstr "退出"
+
+#: templates/base.html:103
+msgid "Admin"
+msgstr "后台管理"
+
+#: templates/dashboard/index.html:13
+msgid "Starred Incidents"
+msgstr "正在处理"
+
+#: templates/dashboard/index.html:16 templates/dashboard/index.html:35
+#: templates/dashboard/index.html:39 templates/dashboard/index.html:43
+#: templates/events/index-all.html:15 templates/events/search.html:18
+msgid "Loading ..."
+msgstr ""
+
+#: templates/dashboard/index.html:28
+msgid "Old"
+msgstr ""
+
+#: templates/events/detail-all.html:21
+msgid "File"
+msgstr "文件"
+
+#: templates/events/detail-all.html:23
+msgid "Attribute"
+msgstr "属性"
+
+#: templates/events/detail-all.html:33 templates/events/detail-all.html:138
+msgid "Add"
+msgstr ""
+
+#: templates/events/detail-all.html:35
+msgctxt "verb"
+msgid "Comment"
+msgstr ""
+
+#: templates/events/detail-all.html:50
+msgid "Block"
+msgstr "阻断"
+
+#: templates/events/detail-all.html:58
+msgid "Close"
+msgstr "关闭"
+
+#: templates/events/detail-all.html:62 templates/incidents/followup.html:19
+msgid "Incident followup"
+msgstr "事件跟踪"
+
+#: templates/events/detail-all.html:73 templates/incidents/followup.html:31
+#: templates/stats/major.html:85 templates/stats/quarterly.html:217
+#: templates/stats/quarterly.html:258 templates/stats/sandbox.html:414
+msgid "Incident Leader"
+msgstr "事件负责人"
+
+#: templates/events/detail-all.html:76 templates/events/new.html:93
+#: templates/events/table.html:9 templates/incidents/followup.html:34
+#: templates/stats/attributes.html:345 templates/stats/major.html:81
+#: templates/stats/sandbox.html:256
+msgid "Severity"
+msgstr "威胁等级"
+
+#: templates/events/detail-all.html:88 templates/incidents/followup.html:39
+msgid "B/L"
+msgstr "业务线"
+
+#: templates/events/detail-all.html:93 templates/events/new.html:46
+#: templates/incidents/followup.html:10
+msgid "Incident"
+msgstr "安全事故"
+
+#: templates/events/detail-all.html:93 templates/events/new.html:46
+#: templates/incidents/followup.html:10
+msgid "Event"
+msgstr "安全事件"
+
+#: templates/events/detail-all.html:96 templates/incidents/followup.html:21
+msgid "someone"
+msgstr ""
+
+#: templates/events/detail-all.html:97 templates/incidents/followup.html:22
+#, python-format
+msgid "Opened on %(date)s by %(opened_by)s"
+msgstr "发现于%(date)s by %(opened_by)s"
+
+#: templates/events/detail-all.html:100 templates/events/new.html:141
+msgid "Description"
+msgstr "详细描述"
+
+#: templates/events/detail-all.html:116
+msgid "Name"
+msgstr ""
+
+#: templates/events/detail-all.html:117
+msgid "Value"
+msgstr ""
+
+#: templates/events/detail-all.html:127
+msgid "Add attribute"
+msgstr "添加属性"
+
+#: templates/events/detail-all.html:152
+msgid "Comments"
+msgstr "概况"
+
+#: templates/events/detail-all.html:166 templates/incidents/followup.html:61
+msgctxt "noun"
+msgid "Comment"
+msgstr "概述"
+
+#: templates/events/detail-all.html:167 templates/events/detail-all.html:194
+#: templates/incidents/followup.html:62
+msgid "Action"
+msgstr "动作"
+
+#: templates/events/detail-all.html:187
+msgid "Add comment"
+msgstr ""
+
+#: templates/events/detail-all.html:229
+msgid "Cancel"
+msgstr "取消"
+
+#: templates/events/detail-all.html:230
+msgid "Save changes"
+msgstr "保存修改"
+
+#: templates/events/new.html:49 templates/events/new.html:147
+msgid "Save"
+msgstr "保存"
+
+#: templates/events/new.html:59 templates/incidents/followup.html:48
+msgid "Summary"
+msgstr "总计"
+
+#: templates/events/new.html:100
+msgid "Date / Time"
+msgstr "日期/时间"
+
+#: templates/events/new.html:105
+msgid "Is an incident"
+msgstr "安全事件"
+
+#: templates/events/new.html:113
+msgid "Incident details"
+msgstr "事件细节"
+
+#: templates/events/new.html:127
+msgid "Confidentiality"
+msgstr "保密级别"
+
+#: templates/events/new.html:132
+msgid "Major incident"
+msgstr "严重事故"
+
+#: templates/events/search.html:8
+msgid "Search results for:"
+msgstr "搜索条件"
+
+#: templates/events/table.html:12
+msgid "Leader"
+msgstr "项目负责人"
+
+#: templates/events/table.html:13 templates/stats/major.html:86
+#: templates/stats/quarterly.html:218 templates/stats/quarterly.html:259
+msgid "Last Action"
+msgstr "最后操作"
+
+#: templates/events/table.html:15 templates/stats/major.html:80
+#: templates/stats/quarterly.html:212 templates/stats/quarterly.html:253
+#: templates/stats/sandbox.html:409
+msgid "Lvl"
+msgstr "威胁等级"
+
+#: templates/events/table.html:16 templates/stats/quarterly.html:219
+#: templates/stats/quarterly.html:260 templates/stats/sandbox.html:416
+msgid "IH"
+msgstr "发布者"
+
+#: templates/events/table.html:17
+msgid "None"
+msgstr ""
+
+#: templates/events/table.html:93
+msgid "previous"
+msgstr ""
+
+#: templates/events/table.html:98
+#, python-format
+msgid "(page %(number)s of %(num_pages)s)"
+msgstr ""
+
+#: templates/events/table.html:103
+msgid "next"
+msgstr "下一页"
+
+#: templates/events/table.html:111
+msgid "No incidents to show."
+msgstr "尚无安全事件"
+
+#: templates/incidents/followup.html:19
+msgid "Event followup"
+msgstr "事件跟踪"
+
+#: templates/incidents/followup.html:54
+msgid "Incident timeline"
+msgstr "事件时刻表"
+
+#: templates/incidents/followup.html:60
+msgid "Author"
+msgstr "发布者"
+
+#: templates/incidents/followup.html:80
+msgid "Related files"
+msgstr "相关文件"
+
+#: templates/incidents/followup.html:93
+msgid "No files for this incident."
+msgstr "尚无关联文件"
+
+#: templates/incidents/login.html:7
+msgid "Sign in &middot; FIR"
+msgstr "系统登录"
+
+#: templates/incidents/login.html:34
+msgid "Sign in to FIR"
+msgstr "系统登录"
+
+#: templates/incidents/login.html:37
+msgid "Username"
+msgstr "用户名"
+
+#: templates/incidents/login.html:40
+msgid "Password"
+msgstr "密码"
+
+#: templates/incidents/login.html:44
+msgid "Remember me"
+msgstr "记住我"
+
+#: templates/incidents/login.html:47
+msgid "Sign in"
+msgstr "登录"
+
+#: templates/incidents/login.html:53
+msgid "Wrong username / password combination."
+msgstr "错误账号或密码"
+
+#: templates/incidents/login.html:53
+msgid "I can break the rules, too."
+msgstr ""
+
+#: templates/stats/attributes.html:54
+msgid "Incidents count:"
+msgstr "事件总数"
+
+#: templates/stats/attributes.html:54
+msgid "With attribute set:"
+msgstr ""
+
+#: templates/stats/attributes.html:139
+msgid "Business&nbsp;Lines"
+msgstr "业务线"
+
+#: templates/stats/attributes.html:324 templates/stats/sandbox.html:233
+msgid "From"
+msgstr ""
+
+#: templates/stats/attributes.html:331 templates/stats/sandbox.html:240
+msgid "To"
+msgstr ""
+
+#: templates/stats/attributes.html:361 templates/stats/sandbox.html:272
+msgid "Categories"
+msgstr "攻击类别"
+
+#: templates/stats/attributes.html:374 templates/stats/sandbox.html:285
+msgid "Business lines"
+msgstr "业务线"
+
+#: templates/stats/attributes.html:382 templates/stats/sandbox.html:293
+msgid "Incidents only"
+msgstr "安全事故"
+
+#: templates/stats/attributes.html:386 templates/stats/sandbox.html:297
+msgid "Major incidents only"
+msgstr "严重安全事故"
+
+#: templates/stats/attributes.html:394
+msgid "Bars"
+msgstr ""
+
+#: templates/stats/attributes.html:408
+msgid "Only incidents with attribute set"
+msgstr ""
+
+#: templates/stats/attributes.html:412
+msgid "Total"
+msgstr "总计"
+
+#: templates/stats/attributes.html:416
+msgid "Average"
+msgstr "平均"
+
+#: templates/stats/attributes.html:420
+msgid "Standard Deviation"
+msgstr "标准偏差"
+
+#: templates/stats/attributes.html:441 templates/stats/sandbox.html:305
+msgid "Go"
+msgstr ""
+
+#: templates/stats/attributes.html:450
+msgid "Over time"
+msgstr "时间/事件"
+
+#: templates/stats/attributes.html:456 templates/stats/sandbox.html:401
+msgid "Matching incidents"
+msgstr "匹配事件"
+
+#: templates/stats/major.html:5
+msgid "Major incidents in last quarter"
+msgstr "上季度严重事件"
+
+#: templates/stats/major.html:11
+msgid "Basel categories"
+msgstr ""
+
+#: templates/stats/major.html:31
+msgid "CERT categories"
+msgstr ""
+
+msgid "Business Line ventilation"
+msgstr ""
+
+#: templates/stats/major.html:72
+msgid "Major Incidents"
+msgstr "严重事件"
+
+#: templates/stats/major.html:82
+msgid "Business Line"
+msgstr "业务线"
+
+#: templates/stats/major.html:87
+msgid "Opened by"
+msgstr "被发现于"
+
+#: templates/stats/quarterly.html:6 templates/stats/quarterly.html:17
+msgid "Quarterly statistics"
+msgstr "季度统计"
+
+#: templates/stats/quarterly.html:27
+#, python-format
+msgid "Incidents quarterly statistics for <br /> %(bl_name)s"
+msgstr ""
+
+#: templates/stats/quarterly.html:118
+msgid "Close old incidents for all BLs"
+msgstr "关闭所有业务过时安全事件"
+
+#: templates/stats/quarterly.html:126
+msgid "Monthly forecast"
+msgstr "月度预测"
+
+#: templates/stats/quarterly.html:129
+msgid "Total incidents on your Business Line"
+msgstr "业务整体安全事件"
+
+#: templates/stats/quarterly.html:141
+msgid "Incident breakdown by severity"
+msgstr "按威胁程度分类"
+
+#: templates/stats/quarterly.html:152
+msgid "Incident breakdown by entity"
+msgstr "按实体分类"
+
+#: templates/stats/quarterly.html:162
+msgid "Incident breakdown by category"
+msgstr "按攻击类型分类"
+
+#: templates/stats/quarterly.html:172
+msgid "Incident Management"
+msgstr "安全事件管理"
+
+#: templates/stats/quarterly.html:175
+msgid "Incident Management by incident leader (Business Line or CERT)"
+msgstr "安全事件负责人分类"
+
+#: templates/stats/quarterly.html:186 templates/stats/sandbox.html:378
+msgid "Monitored domains"
+msgstr "监控域"
+
+#: templates/stats/quarterly.html:191 templates/stats/sandbox.html:386
+msgid "Open incidents"
+msgstr "开放事件"
+
+#: templates/stats/quarterly.html:196 templates/stats/sandbox.html:394
+msgid "Blocked incidents"
+msgstr "阻断事件"
+
+#: templates/stats/quarterly.html:204
+msgid "Incident follow-up"
+msgstr "事件跟踪"
+
+#: templates/stats/quarterly.html:209 templates/stats/quarterly.html:250
+#: templates/stats/sandbox.html:406
+msgid "FID"
+msgstr ""
+
+#: templates/stats/quarterly.html:213 templates/stats/quarterly.html:254
+#: templates/stats/sandbox.html:410
+msgid "Svrt"
+msgstr "威胁等级"
+
+#: templates/stats/quarterly.html:214 templates/stats/quarterly.html:255
+#: templates/stats/sandbox.html:411
+msgid "Business&nbsp;Line"
+msgstr "业务线"
+
+#: templates/stats/quarterly.html:216 templates/stats/quarterly.html:257
+#: templates/stats/sandbox.html:413
+msgid "Det."
+msgstr "发现者"
+
+#: templates/stats/quarterly.html:245
+msgid "Unclosed incidents older than three months"
+msgstr "超过三个月未关闭事件"
+
+#: templates/stats/sandbox.html:312
+msgid "Overlapping years"
+msgstr "近一年安全事件趋势"
+
+#: templates/stats/sandbox.html:320
+msgid "By category <span class='smaller'>comparison</span>"
+msgstr "攻击类别趋势对比"
+
+#: templates/stats/sandbox.html:328
+msgid "By category"
+msgstr "攻击类别区分"
+
+#: templates/stats/sandbox.html:338
+msgid "By month"
+msgstr "每月安全事件"
+
+#: templates/stats/sandbox.html:346
+msgid "By subentity"
+msgstr ""
+
+#: templates/stats/sandbox.html:358
+msgid "By severity"
+msgstr "威胁程度区分"
+
+#: templates/stats/sandbox.html:368
+msgid "By Incident Leader"
+msgstr "事件负责人"
+
+#: templates/stats/sandbox.html:415
+msgid "Last action"
+msgstr "最后操作"
+
+#: templates/stats/yearly.html:6
+msgid "Yearly stats"
+msgstr "近一年状态"
+
+#: templates/stats/yearly.html:78 templates/stats/yearly_compare.html:103
+msgid "Yearly incidents"
+msgstr "近一年安全趋势"
+
+#: templates/stats/yearly.html:87
+msgid "Entire Group - by category"
+msgstr "攻击类别"
+
+#: templates/stats/yearly.html:93
+msgid "Entire Group - by severity"
+msgstr "威胁程度"
+
+#: templates/stats/yearly.html:102
+msgid "Business Line by detection"
+msgstr "业务安全发现者"
+
+#: templates/stats/yearly.html:108 templates/stats/yearly_compare.html:120
+msgid "Incidents by business line"
+msgstr "业务安全事故统计"
+
+#: templates/stats/yearly.html:116
+msgid "Business Line by incident severity"
+msgstr "业务安全威胁统计"
+
+#: templates/stats/yearly.html:123
+msgid "Business Line incident category"
+msgstr "业务安全事件严重程度统计"
+
+#: templates/stats/yearly_compare.html:6
+#, python-format
+msgid "Comparison for %(current_year)s - %(previous_year)s"
+msgstr ""
+
+#: templates/stats/yearly_compare.html:79
+msgid "Global activity volume (incidents+events)"
+msgstr "整体事件（安全事件+普通事件）"
+
+#: templates/stats/yearly_compare.html:87
+msgid "Category incident+events evolution"
+msgstr "攻击类别趋势"
+
+#: templates/stats/yearly_compare.html:94
+msgid "Incidents+events by category"
+msgstr "攻击类别分类"
+
+#: templates/stats/yearly_compare.html:113
+msgid "Business Line incident evolution"
+msgstr "业务安全事件趋势"
+
+#: templates/stats/yearly_compare.html:130
+msgid "Yearly events"
+msgstr "年度安全事件"
+
+#: templates/stats/yearly_compare.html:138
+msgid "Business Line event evolution"
+msgstr "业务普通事件趋势"
+
+#: templates/stats/yearly_compare.html:145
+msgid "Events by business line"
+msgstr "业务安全事件"
